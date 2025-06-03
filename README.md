@@ -10,7 +10,7 @@ This project automates the detection, uninstallation, and installation of the la
 - Downloads and installs the latest `.msi` silently
 - Can be deployed through Microsoft Intune with a custom detection script
 
----
+
 
 ## File Breakdown
 
@@ -21,7 +21,7 @@ This project automates the detection, uninstallation, and installation of the la
 | `Source/`          | Folder where packaging source is built |
 | `Install-7Zip.intunewin` | Output package for Intune (not uploaded here) |
 
----
+
 
 ## Intune Deployment Instructions
 
@@ -30,7 +30,7 @@ This project automates the detection, uninstallation, and installation of the la
 3. Use `Detect-7Zip.ps1` as a **custom detection rule**
 4. Assign to devices or user groups
 
----
+
 
 ## Detection Script Logic
 
@@ -39,7 +39,6 @@ The detection script:
 - Compares to the installed registry version
 - Exits with `0` if latest is installed, `1` if not
 
----
 
 ## License
 
