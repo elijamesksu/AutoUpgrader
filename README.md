@@ -1,4 +1,4 @@
-# SevenZipAutoUpdater for Intune
+# 7Zip Install for Intune
 
 This project automates the detection, uninstallation, and installation of the latest version of [7-Zip](https://www.7-zip.org) using Microsoft Intune's Win32 app model.
 
